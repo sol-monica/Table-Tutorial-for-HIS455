@@ -48,26 +48,8 @@ they get a ``<th>`` tag.
 
 </table>
 ```
-This is the result! The table does not have any borders by default.
-
-<table>
-	<tr>
-		<th>Class</th>
-		<th>Assignment</th>
-		<th>Mark</th>
 	</tr>  
-	<tr>
-		<td>EAS449</td>
-		<td>Presentation</td>
-		<td>A</td>
-	</tr>
-	<tr>
-		<td>EAS417</td>
-		<td>Final Project</td>
-		<td>A+</td>
-	</tr>
-</table>
-
+The resulting table does not have any borders by default.
 
 Use `<table>` to denote the start of the table.
 `<tr>` determines a row, `<th>` a heading (essentially a column), and `<td>` the contents of an individual cell. Don't forget to close the tags!
