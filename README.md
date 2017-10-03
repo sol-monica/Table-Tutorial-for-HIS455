@@ -6,7 +6,7 @@ the elementary processes of creating and customizing tables in HTML and CSS.
 
 I have separated the tutorial into two parts:
 1. Creating tables
-2. Styling tables
+2. [Styling tables](#Styling)
 
 You can probably get away with just reading 1., but I would highly recommend learning 2. as well. I've tried to include only the basics. Let's get started!
 
@@ -53,7 +53,7 @@ The resulting table does not have any borders by default.
 Use `<table>` to denote the start of the table.
 `<tr>` determines a row, `<th>` a heading (essentially a column), and `<td>` the contents of an individual cell. Don't forget to close the tags!
 
-### 2. Styling Tables using CSS&HTML (but mostly CSS)
+### 2. Styling Tables using CSS&HTML (but mostly CSS) <a id="Styling"></a>
 
 Creating tables with your content seems easy enough. You may also find it useful to customize the cell contents or the actual table.
 
