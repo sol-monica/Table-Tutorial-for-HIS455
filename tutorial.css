@@ -1,0 +1,17 @@
+table, td, th{
+  border-collapse: collapse;
+  border:
+}
+
+th {
+  /* Changing properites of <th> only */
+
+}
+
+
+
+td{
+  /* Using one selector to change the
+  padding of >>non-heading cells only<<
+  here */
+}
