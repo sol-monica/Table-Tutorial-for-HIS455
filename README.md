@@ -2,7 +2,7 @@
 
 Tables are a useful way to organize information. Creating tables in HTML is simple enough, however,
 customizing your tables  can prove to be tricky. The purpose of this tutorial is to guide you through
-the elementary processes of creating, and customizing tables in HTML and CSS.
+the elementary processes of creating and customizing tables in HTML and CSS.
 
 I have separated the tutorial into two parts:
 1. Creating tables
@@ -236,8 +236,3 @@ Try the following:
 Make it easy on the eyes!
 
 [Here's a link to a jsbin where I've set up some of the basics.](http://jsbin.com/yujojicutu/edit?html,css,output)
-
-
- <!--
- og: (http://jsbin.com/yujojicutu/edit?html,css,output)
- solution: http://jsbin.com/demiwovowi/edit?html,css,output -->
