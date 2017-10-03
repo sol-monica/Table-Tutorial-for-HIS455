@@ -48,7 +48,6 @@ they get a ``<th>`` tag.
 
 </table>
 ```
-	</tr>  
 The resulting table does not have any borders by default.
 
 Use `<table>` to denote the start of the table.
