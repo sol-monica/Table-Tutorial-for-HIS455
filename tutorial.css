@@ -8,6 +8,8 @@ th {
 
 }
 
+tr:nth-child(even){background-color: blue}
+tr:hover {background-color: red}
 
 
 td{

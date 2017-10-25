@@ -63,6 +63,7 @@ For the purposes of this tutorial, I have included a few essential customization
 3. [Merged cells](#merged)
 4. [Content](#content)
 5. [Sizing and Spacing](#sz)
+6. [Cell Specific styling: Hover and Stripes](#stripe)
 
 #### 2.1 Titles <a id="titles"></a>
 
@@ -195,6 +196,28 @@ To position your table, use `margin` and `float` as usual. I won't include too m
 To set the table in the center of the page, set left and right margins to `auto`.  
 
 To set the table to the left, or right of other text on the page, use `float:left;` and `float:right;` respectively.
+
+#### 2.6 Cell Specific styling: Hover and Stripes <a id="stripe"></a>
+
+##### Stripes
+If your table has many rows, it may be useful to be able to distinguish between the various rows. We can "stripe" every other row using a simple line of code
+
+ ```
+ tr:nth-child(even){background-color: blue}
+ ```
+
+You can change whether the `even` or `odd` rows are highlighted, and also customize the `background-color` as well.
+
+Colouring individual rows aid readability of the table, so make sure to choose your `background-color` wisely!
+
+##### Hover
+Another feature that can aid readability is the ability to highlight rows with your cursor. This can be added with yet another simple line of code:
+
+```
+tr:hover {background-color: #f5f5f5}
+```
+
+Again, you are able to customize the `background-color` of the highlight.
 
 ## Summary
 Some new tags and selectors of the above tutorial are summarized in a table, below. I didnt include much of the text positioning, or colouring, since those are pretty universal -- you just need to be mindful of where you put them.
