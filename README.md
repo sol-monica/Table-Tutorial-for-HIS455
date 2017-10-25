@@ -252,7 +252,7 @@ Create and customize a table that lists each book, its author, and whether it ha
 Try the following:
 1. Make sure each data point has its own cell
 2. Add borders to the table.
-3. Make the heading row a different colour.
+3. Make the heading row a different colour, and stripe the _odd_ rows a light grey.
 4. Center the text within each cell, vertically and horizontally.
 5. Make J.K. Rowling span two rows, for both her HP titles!
 
