@@ -53,7 +53,7 @@ The resulting table does not have any borders by default.
 Use `<table>` to denote the start of the table.
 `<tr>` determines a row, `<th>` a heading (essentially a column), and `<td>` the contents of an individual cell. Don't forget to close the tags!
 
-### 2. Styling Tables using CSS&HTML (but mostly CSS) <a id="Styling"></a>
+## 2. Styling Tables using CSS&HTML (but mostly CSS) <a id="Styling"></a>
 
 Creating tables with your content seems easy enough. You may also find it useful to customize the cell contents or the actual table.
 
@@ -63,9 +63,9 @@ For the purposes of this tutorial, I have included a few essential customization
 3. [Merged cells](#merged)
 4. [Content](#content)
 5. [Sizing and Spacing](#sz)
-6. [Cell Specific styling: Hover and Stripes](#stripe)
+6. [Row Specific styling: Hover and Stripes](#stripehov)
 
-#### 2.1 Titles <a id="titles"></a>
+### 2.1 Titles <a id="titles"></a>
 
 You can label your table with a `<caption>` tag, which **must be inserted immediately after** the `<table>` tag in the **HTML**.
 
@@ -87,7 +87,7 @@ The following snippet inserts a caption, which is automatically centered. Someth
 </table>
 ```
 
-#### 2.2 Borders <a id="borders"></a>
+### 2.2 Borders <a id="borders"></a>
 
 Borders are important in giving tables an organized look. The values of the `border` property will be able to change the style of the border (line weight, type, and colour). You can change the borders of the entire table, cells, or headings, depending on the selectors you use.
 
@@ -106,7 +106,7 @@ table {
 }
 ```
 
-#### 2.3 Merged cells <a id="merged"></a>
+### 2.3 Merged cells <a id="merged"></a>
 
 Sometimes you may want to have cells that span multiple rows or columns.
 To have a cell span multiple columns, use `colspan`. To have a cell span multiple rows, use `rowspan`.
@@ -144,7 +144,7 @@ This bit of code should be added to the specific `<td>` you want to span **withi
 ```
 This produces a table where EAS372 spans **two rows**, including Essay One and Essay Two.
 
-#### 2.4 Content <a id="content"></a>
+### 2.4 Content <a id="content"></a>
 
 ##### Text
 You can change the alignment of the text within `<th>` or `<td>`. Use `vertical-align` to change the vertical alignment of the text to `top`, `bottom`, or `middle`.
@@ -164,7 +164,7 @@ You can also change, say, the `background-color` of `<th>`. Similarly, you can c
 
 Although you can change these in the CSS, if you are changing simply one row, or one cell, it might be easier to include it in the HTML, using a snippet such as `<td style="background-color:red">EAS449</td>` to colour a single `<td>` for example.
 
-#### 2.5 Sizing and Spacing <a id="sz"></a>
+### 2.5 Sizing and Spacing <a id="sz"></a>
 
 ##### Dimensions
 It is also helpful to change the dimensions of your table, as well as the spacing of each cell or row. You can do so using `width` and `height`.
@@ -190,14 +190,14 @@ th, td {
 	padding: 20px;
 }
 ```
-#### Positioning
+##### Positioning
 To position your table, use `margin` and `float` as usual. I won't include too many details on this since someone else may have written a tutorial on this.
 
 To set the table in the center of the page, set left and right margins to `auto`.  
 
 To set the table to the left, or right of other text on the page, use `float:left;` and `float:right;` respectively.
 
-#### 2.6 Cell Specific styling: Hover and Stripes <a id="stripe"></a>
+### 2.6 Cell Specific styling: Hover and Stripes <a id="stripehov"></a>
 
 ##### Stripes
 If your table has many rows, it may be useful to be able to distinguish between the various rows. We can "stripe" every other row using a simple line of code
@@ -252,7 +252,7 @@ Create and customize a table that lists each book, its author, and whether it ha
 Try the following:
 1. Make sure each data point has its own cell
 2. Add borders to the table.
-3. Make the heading row a different colour, and stripe the _odd_ rows a light grey.
+3. Make the heading row a different colour, and stripe the *odd* rows a light grey.
 4. Center the text within each cell, vertically and horizontally.
 5. Make J.K. Rowling span two rows, for both her HP titles!
 
